@@ -19,3 +19,7 @@ services:
   run_command: heroku-php-apache2 public/ <----- you need to add public/
   source_dir: /
 ```
+
+# Live Demo
+- https://slim-do-app-jgbjg.ondigitalocean.app/
+- https://slim-do-app-jgbjg.ondigitalocean.app/hello
