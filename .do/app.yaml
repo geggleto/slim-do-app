@@ -6,3 +6,5 @@ services:
     deploy_on_push: true
     repo: geggleto/slim-do-app
   name: geggleto/slim-do-app
+  run_command: heroku-php-apache2 public/
+
