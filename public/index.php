@@ -26,7 +26,7 @@ $app->addBodyParsingMiddleware();
 
 //After login you can view this route
 $app->get('/', \Example\HelloWorldRoute::class);
-$app->get('/hello', \Example\HelloWorldRoute::class);
+$app->get('/hello', \Example\HelloWorldRoute2::class);
 
 //Run App
 $app->run();
