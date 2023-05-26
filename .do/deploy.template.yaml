@@ -1,9 +1,0 @@
-spec:
-  name: moonglow-api
-  services:
-  - environment_slug: php
-    git:
-      branch: main
-      repo_clone_url: https://github.com/geggleto/slim-do-app.git
-    name: geggleto/slim-do-app
-    run_command: heroku-php-apache2 public/
